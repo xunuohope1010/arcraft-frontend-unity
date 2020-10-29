@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 66cf5a220a69c234a8edb2617c36756e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainBackgroundParallax: {fileID: 161828, guid: b029f260160f96b45956ea8b805818af,
+      type: 3}
+  - mainBackground: {instanceID: 0}
+  - menuText: {instanceID: 0}
+  - ArrowR: {instanceID: 0}
+  - ArrowL: {instanceID: 0}
+  - menuBar: {instanceID: 0}
+  - backgroundsController: {instanceID: 0}
+  - Select: {instanceID: 0}
+  - SceneSelect: {instanceID: 0}
+  - exitMenu: {instanceID: 0}
+  - OptionsMenu: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,627 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::Awake()
+extern void CloudNativeAnchor_Awake_m30F0265E85FF27D05D3C825033EB66B2350A67EF ();
+// 0x00000002 System.Void Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::CloudToNative(Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor)
+extern void CloudNativeAnchor_CloudToNative_m9195D59B4A888F5ED3623324BF16C5BC144B39AE ();
+// 0x00000003 System.Void Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::NativeToCloud(System.Boolean)
+extern void CloudNativeAnchor_NativeToCloud_mA4FBA8A547E0B24DAEE76D9126FB4BD472EF16CD ();
+// 0x00000004 System.Void Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::NativeToCloud()
+extern void CloudNativeAnchor_NativeToCloud_mBB7AF13F37DB30CFAA65A636341F6C40A242C63B ();
+// 0x00000005 System.Void Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::SetPose(UnityEngine.Vector3,UnityEngine.Quaternion)
+extern void CloudNativeAnchor_SetPose_m2BDF842D4310F71BC0020A719EBAC8B2CA23D0A1 ();
+// 0x00000006 System.Void Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::SetPose(UnityEngine.Pose)
+extern void CloudNativeAnchor_SetPose_m703C61835E8EFCDCF103BB558AB17802EC02CB6B ();
+// 0x00000007 Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::get_CloudAnchor()
+extern void CloudNativeAnchor_get_CloudAnchor_mEED137E475C672DE5B44E9A4CAB656B718FB584C ();
+// 0x00000008 Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::get_NativeAnchor()
+extern void CloudNativeAnchor_get_NativeAnchor_mEFEF3CE79765134181347B8BA0FC0785E3440485 ();
+// 0x00000009 System.Void Microsoft.Azure.SpatialAnchors.Unity.CloudNativeAnchor::.ctor()
+extern void CloudNativeAnchor__ctor_m66BC164F3D27DF13AD5A8934737F0EAB6AAF73D5 ();
+// 0x0000000A Microsoft.Azure.SpatialAnchors.Unity.AuthenticationMode Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig::get_AuthenticationMode()
+extern void SpatialAnchorConfig_get_AuthenticationMode_m56D42062517AA34B10935B759A3B954EB492C6D7 ();
+// 0x0000000B System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig::get_SpatialAnchorsAccountId()
+extern void SpatialAnchorConfig_get_SpatialAnchorsAccountId_mE187C88E2901E6FD11747F3F30767312FF7C59AB ();
+// 0x0000000C System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig::get_SpatialAnchorsAccountKey()
+extern void SpatialAnchorConfig_get_SpatialAnchorsAccountKey_m5DCE374B60635B6692AF02305E4D458A7E1F9B15 ();
+// 0x0000000D System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig::get_SpatialAnchorsAccountDomain()
+extern void SpatialAnchorConfig_get_SpatialAnchorsAccountDomain_mC707E8860B9E5D005F7B784B191352B941EDB5A8 ();
+// 0x0000000E System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig::get_ClientId()
+extern void SpatialAnchorConfig_get_ClientId_m287E708603616A72805854FC8D6D5ED3A5042CE0 ();
+// 0x0000000F System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig::get_TenantId()
+extern void SpatialAnchorConfig_get_TenantId_m6099C6BB202D4871C8E3C248731738EF62C2C3AC ();
+// 0x00000010 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig::.ctor()
+extern void SpatialAnchorConfig__ctor_mC815BD551B017A82009D3B529DDD6420DE4DF406 ();
+// 0x00000011 System.IntPtr Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::GetPlatformPointer(System.IntPtr)
+extern void SpatialAnchorExtensions_GetPlatformPointer_m89717271FB4D05DFF146A2213192F43FDFBF8608 ();
+// 0x00000012 System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::GetPlatformKey(System.IntPtr)
+extern void SpatialAnchorExtensions_GetPlatformKey_m390F10BE2ACA82837AD2E628D4F1061D03D90487 ();
+// 0x00000013 Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::ApplyCloudAnchor(UnityEngine.GameObject,Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor)
+extern void SpatialAnchorExtensions_ApplyCloudAnchor_m63AD5DD51FBBDE499007E5B35775F335A631C279 ();
+// 0x00000014 Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::CreateNativeAnchor(UnityEngine.GameObject)
+extern void SpatialAnchorExtensions_CreateNativeAnchor_mF36E2CE8513F80C79BFAA3E69C4F2B83290D367F ();
+// 0x00000015 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::DeleteNativeAnchor(UnityEngine.GameObject)
+extern void SpatialAnchorExtensions_DeleteNativeAnchor_mBD36C4B64AD2F5C9A5E004A19ACD902A1130C367 ();
+// 0x00000016 Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::FindNativeAnchor(UnityEngine.GameObject)
+extern void SpatialAnchorExtensions_FindNativeAnchor_m094978C875DAC4A8628AFF1934F0C556E73977F9 ();
+// 0x00000017 Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::FindOrCreateNativeAnchor(UnityEngine.GameObject)
+extern void SpatialAnchorExtensions_FindOrCreateNativeAnchor_m7FB7D784FAB72EB0AA30C2B37D0A8DDEABD04176 ();
+// 0x00000018 System.IntPtr Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::GetPointer(Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent)
+extern void SpatialAnchorExtensions_GetPointer_m8E38607AEB8E855040CDDD33DD6528E6051F3197 ();
+// 0x00000019 UnityEngine.Pose Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::GetPose(Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor)
+extern void SpatialAnchorExtensions_GetPose_m590C314B282947CB2332A7E070D72C6A3F638889 ();
+// 0x0000001A System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::SetPose(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+extern void SpatialAnchorExtensions_SetPose_m46415698AA046E7F3CE75BA7CBCA0A46FD051AC4 ();
+// 0x0000001B System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::SetPose(UnityEngine.GameObject,UnityEngine.Pose)
+extern void SpatialAnchorExtensions_SetPose_m87A8936F4DF42F4ADFF593CDF513954B102D9F8C ();
+// 0x0000001C Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorExtensions::ToCloud(Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent)
+extern void SpatialAnchorExtensions_ToCloud_mC0032F5BFBA0BC2164EFE8AD041AB944D14386CD ();
+// 0x0000001D System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::EnsureSessionStarted()
+extern void SpatialAnchorManager_EnsureSessionStarted_m9236D97D628200816C9C2D4576B78801C53079AA ();
+// 0x0000001E System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::ProcessLatestFrame()
+extern void SpatialAnchorManager_ProcessLatestFrame_m8F21EB4210B68D8E3C22586F0B2BCCE9E1104F5C ();
+// 0x0000001F UnityEngine.XR.ARFoundation.ARAnchor Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::ReferencePointFromPointer(System.IntPtr)
+extern void SpatialAnchorManager_ReferencePointFromPointer_m88567FABE21E86C74CF2E22BC1B4F3A530E3F85E ();
+// 0x00000020 UnityEngine.XR.ARFoundation.ARAnchor Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::AnchorFromPointer(System.IntPtr)
+extern void SpatialAnchorManager_AnchorFromPointer_mC8BD2CBA3D48B7B1DF2F71221D499B5BE7FE7E42 ();
+// 0x00000021 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::ProcessPendingEventArgs()
+extern void SpatialAnchorManager_ProcessPendingEventArgs_m9F12D44CD5DBB2DA6709F84E53160FD68818301C ();
+// 0x00000022 System.Threading.Tasks.Task`1<System.Boolean> Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::EnsureValidConfiguration(System.Boolean,System.Boolean)
+extern void SpatialAnchorManager_EnsureValidConfiguration_mF435591F62E2F19A62A5FC48FE2E34B3995AC3AB ();
+// 0x00000023 System.Threading.Tasks.Task`1<System.String> Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::GetAADTokenAsync()
+extern void SpatialAnchorManager_GetAADTokenAsync_m56CD13BAF221966F3E199879C27FE8A564AE4C6E ();
+// 0x00000024 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::LoadConfiguration()
+extern void SpatialAnchorManager_LoadConfiguration_mFFDB9CE80CF23E5E42913E13BC5CBA1004E5E7B4 ();
+// 0x00000025 System.Threading.Tasks.Task`1<System.Boolean> Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::IsValidateConfiguration()
+extern void SpatialAnchorManager_IsValidateConfiguration_m629505532ED1B02E9B7C5180ECFDECD52F3B98A3 ();
+// 0x00000026 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnAnchorLocated(System.Object,Microsoft.Azure.SpatialAnchors.AnchorLocatedEventArgs)
+extern void SpatialAnchorManager_OnAnchorLocated_m096073B5E87FF3D569BF78AA0CBB6390DF8BAD19 ();
+// 0x00000027 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnError(System.Object,Microsoft.Azure.SpatialAnchors.SessionErrorEventArgs)
+extern void SpatialAnchorManager_OnError_m0ADBCBAE2868516F64C264211F6C32A98471D233 ();
+// 0x00000028 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnLocateAnchorsCompleted(System.Object,Microsoft.Azure.SpatialAnchors.LocateAnchorsCompletedEventArgs)
+extern void SpatialAnchorManager_OnLocateAnchorsCompleted_m8A2B20DAAA07F8958577273E9326BE7AFD43F53D ();
+// 0x00000029 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnLogDebug(System.Object,Microsoft.Azure.SpatialAnchors.OnLogDebugEventArgs)
+extern void SpatialAnchorManager_OnLogDebug_m28C1D4F3839F119A4851E4187911D04F8FD70C91 ();
+// 0x0000002A System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnSessionChanged()
+extern void SpatialAnchorManager_OnSessionChanged_mF38004FEEE9930A2DFBE9CABADE8CB071DD6B73D ();
+// 0x0000002B System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnSessionCreated()
+extern void SpatialAnchorManager_OnSessionCreated_m1C5EC82F4E318C35C11D792EC2B89E94789262AE ();
+// 0x0000002C System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnSessionDestroyed()
+extern void SpatialAnchorManager_OnSessionDestroyed_m012B8B16FE5ACF7B4E15B8CE43176BDA3691934B ();
+// 0x0000002D System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnSessionStarted()
+extern void SpatialAnchorManager_OnSessionStarted_m4E5E9A4FFB995C81C766E1588E6EF5CBAF7ADE05 ();
+// 0x0000002E System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnSessionStopped()
+extern void SpatialAnchorManager_OnSessionStopped_m884C94413856C0086FC6FEB6B506B267170738DF ();
+// 0x0000002F System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnSessionUpdated(System.Object,Microsoft.Azure.SpatialAnchors.SessionUpdatedEventArgs)
+extern void SpatialAnchorManager_OnSessionUpdated_m48B975A363B11E755044F16487D337B9E0B67411 ();
+// 0x00000030 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::Session_TokenRequired(System.Object,Microsoft.Azure.SpatialAnchors.TokenRequiredEventArgs)
+extern void SpatialAnchorManager_Session_TokenRequired_mF6105D3F0F44889F715F492A00307353244CE440 ();
+// 0x00000031 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::ARSession_stateChanged(UnityEngine.XR.ARFoundation.ARSessionStateChangedEventArgs)
+extern void SpatialAnchorManager_ARSession_stateChanged_m5EF53348D393B6D2225E9FC5110A4861C117182C ();
+// 0x00000032 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::ARAnchorManager_anchorsChanged(UnityEngine.XR.ARFoundation.ARAnchorsChangedEventArgs)
+extern void SpatialAnchorManager_ARAnchorManager_anchorsChanged_m3F950E2252B1BD33F63AE16D5B8BAD9F8D091A84 ();
+// 0x00000033 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::ArCameraManager_frameReceived(UnityEngine.XR.ARFoundation.ARCameraFrameEventArgs)
+extern void SpatialAnchorManager_ArCameraManager_frameReceived_mFA9B68ABC36F2E7A3187476BD651366F6622E8E0 ();
+// 0x00000034 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::Awake()
+extern void SpatialAnchorManager_Awake_m55F81FC763246AF7F1834568EAB699D7249E427A ();
+// 0x00000035 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::OnDestroy()
+extern void SpatialAnchorManager_OnDestroy_mE59312795A7B2BA58812CFAD223B1037E5C28E17 ();
+// 0x00000036 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::Start()
+extern void SpatialAnchorManager_Start_m86CBD09DAF69B880F8ED131901E357D535C4AFF8 ();
+// 0x00000037 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::Update()
+extern void SpatialAnchorManager_Update_m44F2ED5C63DF5A48D1B839019E2C2E3978EC5578 ();
+// 0x00000038 System.Threading.Tasks.Task Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::CreateSessionAsync()
+extern void SpatialAnchorManager_CreateSessionAsync_m597F6E8D5DBAAFF0F9A153CC00C34085285CE32E ();
+// 0x00000039 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::CompleteARFoundationInitialization()
+extern void SpatialAnchorManager_CompleteARFoundationInitialization_mF2CE317CC1F8FCAA4BE72C982FF27BC3A8C85DA5 ();
+// 0x0000003A System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::DestroySession()
+extern void SpatialAnchorManager_DestroySession_m36C923FA2891398CE67B1F780A530ECCF266A36B ();
+// 0x0000003B System.Threading.Tasks.Task Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::ResetSessionAsync()
+extern void SpatialAnchorManager_ResetSessionAsync_m6BE54BACF97B096F068929998A2AB8E11F21A13A ();
+// 0x0000003C System.Threading.Tasks.Task Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::CreateAnchorAsync(Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor,System.Threading.CancellationToken)
+extern void SpatialAnchorManager_CreateAnchorAsync_m1B4F0053BF84210F83E5A9921D6769BF6FCF2223 ();
+// 0x0000003D System.Threading.Tasks.Task Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::CreateAnchorAsync(Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor)
+extern void SpatialAnchorManager_CreateAnchorAsync_mF110FFC31DCF9D52E3BE50F3D345D6E17B7F2762 ();
+// 0x0000003E System.Threading.Tasks.Task Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::DeleteAnchorAsync(Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor)
+extern void SpatialAnchorManager_DeleteAnchorAsync_m30A2C5A9EEDDC880836D55634433660903BB2A1B ();
+// 0x0000003F System.Threading.Tasks.Task Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::StartSessionAsync()
+extern void SpatialAnchorManager_StartSessionAsync_mBBAD105627E5B6EBE362ABB352F6EA577D4666EC ();
+// 0x00000040 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::StopSession()
+extern void SpatialAnchorManager_StopSession_m10FA31695ADB40999D606A6EDD73A972D69B0C30 ();
+// 0x00000041 Microsoft.Azure.SpatialAnchors.Unity.AuthenticationMode Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_AuthenticationMode()
+extern void SpatialAnchorManager_get_AuthenticationMode_m834B7FE263CF2A4AC65FB5589AC98D9FDFC0782C ();
+// 0x00000042 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::set_AuthenticationMode(Microsoft.Azure.SpatialAnchors.Unity.AuthenticationMode)
+extern void SpatialAnchorManager_set_AuthenticationMode_m84C7477E6A7B0D0A33A33BD98721E3138052FF45 ();
+// 0x00000043 System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_ClientId()
+extern void SpatialAnchorManager_get_ClientId_m4E66F17965471FFB6753BE6B31CD1D97C09E0937 ();
+// 0x00000044 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::set_ClientId(System.String)
+extern void SpatialAnchorManager_set_ClientId_m72CC030D50B54B299109D8234A2F1B3066FD590F ();
+// 0x00000045 System.Boolean Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_IsLocating()
+extern void SpatialAnchorManager_get_IsLocating_mD0BC6A4CA8AC36288395DA9A0F89CE609EA656A0 ();
+// 0x00000046 System.Boolean Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_IsReadyForCreate()
+extern void SpatialAnchorManager_get_IsReadyForCreate_m0793BCB29353804507FBFD88258D2476D2BBCE3B ();
+// 0x00000047 System.Boolean Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_IsSessionStarted()
+extern void SpatialAnchorManager_get_IsSessionStarted_m833ECF98558B48251D2B6496FC7297B882CC89C2 ();
+// 0x00000048 Microsoft.Azure.SpatialAnchors.SessionLogLevel Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_LogLevel()
+extern void SpatialAnchorManager_get_LogLevel_mBE427EB23A55154F0F8E44493B7BFA6CE10770E7 ();
+// 0x00000049 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::set_LogLevel(Microsoft.Azure.SpatialAnchors.SessionLogLevel)
+extern void SpatialAnchorManager_set_LogLevel_m845B3513501EF84C23E1598733DE4377F7A989CC ();
+// 0x0000004A Microsoft.Azure.SpatialAnchors.CloudSpatialAnchorSession Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_Session()
+extern void SpatialAnchorManager_get_Session_mA3F132069477BEE30F739B60CBECB4CAEC99EE0B ();
+// 0x0000004B System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::set_Session(Microsoft.Azure.SpatialAnchors.CloudSpatialAnchorSession)
+extern void SpatialAnchorManager_set_Session_m1233F37B53C76AE1EA0BF30B8587709FE47854CB ();
+// 0x0000004C Microsoft.Azure.SpatialAnchors.SessionStatus Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_SessionStatus()
+extern void SpatialAnchorManager_get_SessionStatus_m23419950ED8E0976F7409C8CC0E19D0F60C47F53 ();
+// 0x0000004D System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_SpatialAnchorsAccountId()
+extern void SpatialAnchorManager_get_SpatialAnchorsAccountId_m5E8EE853103BD07A23A32B255C010B66A0BFDA73 ();
+// 0x0000004E System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::set_SpatialAnchorsAccountId(System.String)
+extern void SpatialAnchorManager_set_SpatialAnchorsAccountId_mC1F9DE6AC86E74ED4A8223E7A0CCA92189EBD4E6 ();
+// 0x0000004F System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_SpatialAnchorsAccountKey()
+extern void SpatialAnchorManager_get_SpatialAnchorsAccountKey_m72CFDEF99E267D452435C231BFB6892681D65EF2 ();
+// 0x00000050 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::set_SpatialAnchorsAccountKey(System.String)
+extern void SpatialAnchorManager_set_SpatialAnchorsAccountKey_mD601ED5C4DA4D5F49A4838728AE9F6B58DDC65DE ();
+// 0x00000051 System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_SpatialAnchorsAccountDomain()
+extern void SpatialAnchorManager_get_SpatialAnchorsAccountDomain_mD4B0BF55007786BDB7BB24CB77DE3D20457E5E85 ();
+// 0x00000052 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::set_SpatialAnchorsAccountDomain(System.String)
+extern void SpatialAnchorManager_set_SpatialAnchorsAccountDomain_mC5C4279D69CA893D8448FE1CE9A207EA7692D49A ();
+// 0x00000053 System.String Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::get_TenantId()
+extern void SpatialAnchorManager_get_TenantId_mCC02F0098B3AE8179E45DE79F0A0C45CDDEE75A4 ();
+// 0x00000054 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::set_TenantId(System.String)
+extern void SpatialAnchorManager_set_TenantId_m1FC62BA4C17E8B58DD6B67BA530D9BA50D94FF26 ();
+// 0x00000055 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_AnchorLocated(Microsoft.Azure.SpatialAnchors.AnchorLocatedDelegate)
+extern void SpatialAnchorManager_add_AnchorLocated_m21127D746CB51D76E931F83C1DE30096C0052713 ();
+// 0x00000056 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_AnchorLocated(Microsoft.Azure.SpatialAnchors.AnchorLocatedDelegate)
+extern void SpatialAnchorManager_remove_AnchorLocated_mEBBFC084770C4840FC1DE73A4E185525155D7F94 ();
+// 0x00000057 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_LocateAnchorsCompleted(Microsoft.Azure.SpatialAnchors.LocateAnchorsCompletedDelegate)
+extern void SpatialAnchorManager_add_LocateAnchorsCompleted_m06BE304F58242D722A16BB98BBD97A19C3AB89D5 ();
+// 0x00000058 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_LocateAnchorsCompleted(Microsoft.Azure.SpatialAnchors.LocateAnchorsCompletedDelegate)
+extern void SpatialAnchorManager_remove_LocateAnchorsCompleted_mC94B437C4220AF7A5F3B1330810BD8BA9E2CF86E ();
+// 0x00000059 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_Error(Microsoft.Azure.SpatialAnchors.SessionErrorDelegate)
+extern void SpatialAnchorManager_add_Error_m7DB2FB2DFA06DEB0B80730636FEF30B88A74984C ();
+// 0x0000005A System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_Error(Microsoft.Azure.SpatialAnchors.SessionErrorDelegate)
+extern void SpatialAnchorManager_remove_Error_m3C6146E92113997056729ACCA89BC7291EADB24F ();
+// 0x0000005B System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_SessionChanged(System.EventHandler)
+extern void SpatialAnchorManager_add_SessionChanged_mEDB98935ED0B64715CF5E3E49389D4181088D371 ();
+// 0x0000005C System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_SessionChanged(System.EventHandler)
+extern void SpatialAnchorManager_remove_SessionChanged_mAD64699ABA1B305ACE3A6AC508B010B932E445B7 ();
+// 0x0000005D System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_SessionCreated(System.EventHandler)
+extern void SpatialAnchorManager_add_SessionCreated_mEE221D8D72C2300A1C8AF2589B7EB6A1AA21255A ();
+// 0x0000005E System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_SessionCreated(System.EventHandler)
+extern void SpatialAnchorManager_remove_SessionCreated_m8603C214B073D383462990C56AFF819CA981FD0D ();
+// 0x0000005F System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_SessionDestroyed(System.EventHandler)
+extern void SpatialAnchorManager_add_SessionDestroyed_mF63BC77B9BB991A65D704490E8B505F8C998959D ();
+// 0x00000060 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_SessionDestroyed(System.EventHandler)
+extern void SpatialAnchorManager_remove_SessionDestroyed_m84F5F42EBC3760AB508FCF6FF3D579183BB8B216 ();
+// 0x00000061 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_SessionStarted(System.EventHandler)
+extern void SpatialAnchorManager_add_SessionStarted_m282D04E8A7D43785717524412E49F01E010893F4 ();
+// 0x00000062 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_SessionStarted(System.EventHandler)
+extern void SpatialAnchorManager_remove_SessionStarted_m58DD68C5D1F43E2793E4D4BF370BC594AAC01833 ();
+// 0x00000063 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_SessionStopped(System.EventHandler)
+extern void SpatialAnchorManager_add_SessionStopped_m22B71DC2EAB3380AE0626770D5BC9B7A4FF1BB39 ();
+// 0x00000064 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_SessionStopped(System.EventHandler)
+extern void SpatialAnchorManager_remove_SessionStopped_mB2AE16D6A79F1C6E839EF29A5C6FB0F4E1514E00 ();
+// 0x00000065 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_SessionUpdated(Microsoft.Azure.SpatialAnchors.SessionUpdatedDelegate)
+extern void SpatialAnchorManager_add_SessionUpdated_mA1D07B20891C96960F05326E0BB2D87255E767B5 ();
+// 0x00000066 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_SessionUpdated(Microsoft.Azure.SpatialAnchors.SessionUpdatedDelegate)
+extern void SpatialAnchorManager_remove_SessionUpdated_m8CECCF5F19183E21537D0F1559265BC35B1AB03F ();
+// 0x00000067 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::add_LogDebug(Microsoft.Azure.SpatialAnchors.OnLogDebugDelegate)
+extern void SpatialAnchorManager_add_LogDebug_mC1E9B393A2CBB96813F00AF922B33E43EFF0D367 ();
+// 0x00000068 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::remove_LogDebug(Microsoft.Azure.SpatialAnchors.OnLogDebugDelegate)
+extern void SpatialAnchorManager_remove_LogDebug_m0060FA7B16B5CAE4D898CDCAB9BD0E4DBEDDDAB5 ();
+// 0x00000069 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::.ctor()
+extern void SpatialAnchorManager__ctor_m47049A05E0E6D101F249062252B5EE32C5429AE8 ();
+// 0x0000006A System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::.cctor()
+extern void SpatialAnchorManager__cctor_m5A42F22A28CC0FF4FF5EF64CF33A5609A57991AB ();
+// 0x0000006B System.Threading.Tasks.Task Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager::<ResetSessionAsync>b__48_0()
+extern void SpatialAnchorManager_U3CResetSessionAsyncU3Eb__48_0_mC390E9B15F30122EDBDC475F10CD231CD72F085A ();
+// 0x0000006C System.Void Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher::Initialize()
+extern void UnityDispatcher_Initialize_mA42FFE257BA4445641146DD300C0A3A3898DE116 ();
+// 0x0000006D System.Void Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher::Update()
+extern void UnityDispatcher_Update_m315C8CB863DC70C2C51E37970126102F7D558CE3 ();
+// 0x0000006E System.Void Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher::InvokeOnAppThread(System.Action)
+extern void UnityDispatcher_InvokeOnAppThread_m2A26A2FAC2F774E50755E5CFC703848887487E19 ();
+// 0x0000006F System.Void Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher::.ctor()
+extern void UnityDispatcher__ctor_m1470452BBD5DE04FC342EB14A9AC07F091BBC57D ();
+// 0x00000070 System.Void Microsoft.Azure.SpatialAnchors.Unity.UnityDispatcher::.cctor()
+extern void UnityDispatcher__cctor_m28C78DF87229ACFAD3B740C3F8BD72D1F3C0A88A ();
+// 0x00000071 UnityEngine.XR.ARFoundation.ARAnchor Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.AnchorHelpers::CreateWorldAnchor(UnityEngine.Transform)
+extern void AnchorHelpers_CreateWorldAnchor_m17E2ED7EE948E4F50AA2925A1F8C3C5FBA3017F6 ();
+// 0x00000072 UnityEngine.XR.ARFoundation.ARAnchor Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.AnchorHelpers::CreateAnchor(UnityEngine.Vector3,UnityEngine.Quaternion)
+extern void AnchorHelpers_CreateAnchor_mADD92F99CF6205E97D591579BF5A39834BB73A17 ();
+// 0x00000073 UnityEngine.Pose Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.AnchorHelpers::GetPose(Microsoft.Azure.SpatialAnchors.CloudSpatialAnchor)
+extern void AnchorHelpers_GetPose_mCA9C32024A205609EACDC90B4E12165853F5D6AD ();
+// 0x00000074 UnityEngine.Pose Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.AnchorHelpers::GetPose(UnityEngine.XR.ARFoundation.ARAnchor)
+extern void AnchorHelpers_GetPose_m28B5223D494FE6C11759229AF1A04E64DC291143 ();
+// 0x00000075 UnityEngine.Pose Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.AnchorHelpers::GetPose(System.IntPtr)
+extern void AnchorHelpers_GetPose_m309AE80B28347615929F170C08BD732523CE06D8 ();
+// 0x00000076 UnityEngine.XR.ARFoundation.ARAnchor Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent::get_WorldAnchor()
+extern void UnityARFoundationAnchorComponent_get_WorldAnchor_mC638F9C9C27DDF076E92EB582A094E18F8AD602C ();
+// 0x00000077 System.Void Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent::set_WorldAnchor(UnityEngine.XR.ARFoundation.ARAnchor)
+extern void UnityARFoundationAnchorComponent_set_WorldAnchor_m88C99A821B3169CAED109C12F370E1AD2FA002A6 ();
+// 0x00000078 System.IntPtr Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent::get_WorldAnchorHandle()
+extern void UnityARFoundationAnchorComponent_get_WorldAnchorHandle_m8EE8CEB36935F59E8EC3B2A9E1281FED57A56275 ();
+// 0x00000079 System.String Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent::get_WorldAnchorIdentifier()
+extern void UnityARFoundationAnchorComponent_get_WorldAnchorIdentifier_m1DD9D1E1DD91D3D90D409962D1B06D601394F264 ();
+// 0x0000007A System.Void Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent::Awake()
+extern void UnityARFoundationAnchorComponent_Awake_m35F4A63113505BE9E8ADD5C13B000FC300CA331C ();
+// 0x0000007B System.Void Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent::OnDestroy()
+extern void UnityARFoundationAnchorComponent_OnDestroy_m188858786BB38CA694336312A0CB936D3D464B70 ();
+// 0x0000007C System.Void Microsoft.Azure.SpatialAnchors.Unity.ARFoundation.UnityARFoundationAnchorComponent::.ctor()
+extern void UnityARFoundationAnchorComponent__ctor_mF1D8C836972E9E49A5788A7B8C39EFBF60500301 ();
+// 0x0000007D System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<EnsureValidConfiguration>d__23::MoveNext()
+extern void U3CEnsureValidConfigurationU3Ed__23_MoveNext_mED2DA032DB17FED6005530114D830D8EA560E309_AdjustorThunk ();
+// 0x0000007E System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<EnsureValidConfiguration>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CEnsureValidConfigurationU3Ed__23_SetStateMachine_mA409F5240671A931DAE09DF1CE2EBB47D7173CE3_AdjustorThunk ();
+// 0x0000007F System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<GetAADTokenAsync>d__24::MoveNext()
+extern void U3CGetAADTokenAsyncU3Ed__24_MoveNext_mB4E1366A0F8DC6FCE1C3575E862A9A86E353884E_AdjustorThunk ();
+// 0x00000080 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<GetAADTokenAsync>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CGetAADTokenAsyncU3Ed__24_SetStateMachine_m3FA0B17A3BECAEEA9200CEB25AE76D56BE3C374A_AdjustorThunk ();
+// 0x00000081 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<IsValidateConfiguration>d__26::MoveNext()
+extern void U3CIsValidateConfigurationU3Ed__26_MoveNext_m5912469082B9B009A672E9D14E73F2621BBA4B7C_AdjustorThunk ();
+// 0x00000082 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<IsValidateConfiguration>d__26::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CIsValidateConfigurationU3Ed__26_SetStateMachine_mA5ECDF054C2F8997AC693398D1C8876DBFC35044_AdjustorThunk ();
+// 0x00000083 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<Session_TokenRequired>d__37::MoveNext()
+extern void U3CSession_TokenRequiredU3Ed__37_MoveNext_m8D480343234877800193035A866B654347C45F1C_AdjustorThunk ();
+// 0x00000084 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<Session_TokenRequired>d__37::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSession_TokenRequiredU3Ed__37_SetStateMachine_mD0122715862B0A8E993180A85C990FF66966DE7D_AdjustorThunk ();
+// 0x00000085 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<Start>d__43::MoveNext()
+extern void U3CStartU3Ed__43_MoveNext_m2E2DD1B63FEB879CBB05F14B402689DFC682A667_AdjustorThunk ();
+// 0x00000086 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<Start>d__43::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__43_SetStateMachine_m6DCE420723BC40C321D5620989222D1D6995B3CB_AdjustorThunk ();
+// 0x00000087 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<CreateSessionAsync>d__45::MoveNext()
+extern void U3CCreateSessionAsyncU3Ed__45_MoveNext_m6A10AC90277D391961825CB4FE41AD9FECB55F93_AdjustorThunk ();
+// 0x00000088 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<CreateSessionAsync>d__45::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCreateSessionAsyncU3Ed__45_SetStateMachine_m147345D9824E929FC44375B2C3F3AE54A67F10C3_AdjustorThunk ();
+// 0x00000089 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<ResetSessionAsync>d__48::MoveNext()
+extern void U3CResetSessionAsyncU3Ed__48_MoveNext_mED96F0AC3150DF98596299F091979C0E60C2CB89_AdjustorThunk ();
+// 0x0000008A System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<ResetSessionAsync>d__48::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CResetSessionAsyncU3Ed__48_SetStateMachine_m2E0565B80FBCE44C6B67AA6A9AD360B9412C109A_AdjustorThunk ();
+// 0x0000008B System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<CreateAnchorAsync>d__49::MoveNext()
+extern void U3CCreateAnchorAsyncU3Ed__49_MoveNext_mDA21DBB41876299D9A40C843D535EC00A527F586_AdjustorThunk ();
+// 0x0000008C System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<CreateAnchorAsync>d__49::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCreateAnchorAsyncU3Ed__49_SetStateMachine_mC890C4CD60DF752A3C743D448A7CEA610458CCED_AdjustorThunk ();
+// 0x0000008D System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<DeleteAnchorAsync>d__51::MoveNext()
+extern void U3CDeleteAnchorAsyncU3Ed__51_MoveNext_m1519F4D1303BA19D7F26CDE33BF172A41434D447_AdjustorThunk ();
+// 0x0000008E System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<DeleteAnchorAsync>d__51::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CDeleteAnchorAsyncU3Ed__51_SetStateMachine_m7C853B3FFBF682464F3476E4C3242A49AD913F06_AdjustorThunk ();
+// 0x0000008F System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<StartSessionAsync>d__52::MoveNext()
+extern void U3CStartSessionAsyncU3Ed__52_MoveNext_mAABB5058B06039146AA624567E7F450EAE992CCF_AdjustorThunk ();
+// 0x00000090 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<StartSessionAsync>d__52::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartSessionAsyncU3Ed__52_SetStateMachine_m0ACF92BA0C7FFE62741210FDA89D2D84D2923A16_AdjustorThunk ();
+// 0x00000091 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<<ResetSessionAsync>b__48_0>d::MoveNext()
+extern void U3CU3CResetSessionAsyncU3Eb__48_0U3Ed_MoveNext_m04382226C3D2205B93A3C8BF2DAF8FD37A3762DA_AdjustorThunk ();
+// 0x00000092 System.Void Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorManager_<<ResetSessionAsync>b__48_0>d::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CU3CResetSessionAsyncU3Eb__48_0U3Ed_SetStateMachine_m3167E4667377C4A1FD3BA75EAA4E7C71AB5A6C31_AdjustorThunk ();
+static Il2CppMethodPointer s_methodPointers[146] = 
+{
+	CloudNativeAnchor_Awake_m30F0265E85FF27D05D3C825033EB66B2350A67EF,
+	CloudNativeAnchor_CloudToNative_m9195D59B4A888F5ED3623324BF16C5BC144B39AE,
+	CloudNativeAnchor_NativeToCloud_mA4FBA8A547E0B24DAEE76D9126FB4BD472EF16CD,
+	CloudNativeAnchor_NativeToCloud_mBB7AF13F37DB30CFAA65A636341F6C40A242C63B,
+	CloudNativeAnchor_SetPose_m2BDF842D4310F71BC0020A719EBAC8B2CA23D0A1,
+	CloudNativeAnchor_SetPose_m703C61835E8EFCDCF103BB558AB17802EC02CB6B,
+	CloudNativeAnchor_get_CloudAnchor_mEED137E475C672DE5B44E9A4CAB656B718FB584C,
+	CloudNativeAnchor_get_NativeAnchor_mEFEF3CE79765134181347B8BA0FC0785E3440485,
+	CloudNativeAnchor__ctor_m66BC164F3D27DF13AD5A8934737F0EAB6AAF73D5,
+	SpatialAnchorConfig_get_AuthenticationMode_m56D42062517AA34B10935B759A3B954EB492C6D7,
+	SpatialAnchorConfig_get_SpatialAnchorsAccountId_mE187C88E2901E6FD11747F3F30767312FF7C59AB,
+	SpatialAnchorConfig_get_SpatialAnchorsAccountKey_m5DCE374B60635B6692AF02305E4D458A7E1F9B15,
+	SpatialAnchorConfig_get_SpatialAnchorsAccountDomain_mC707E8860B9E5D005F7B784B191352B941EDB5A8,
+	SpatialAnchorConfig_get_ClientId_m287E708603616A72805854FC8D6D5ED3A5042CE0,
+	SpatialAnchorConfig_get_TenantId_m6099C6BB202D4871C8E3C248731738EF62C2C3AC,
+	SpatialAnchorConfig__ctor_mC815BD551B017A82009D3B529DDD6420DE4DF406,
+	SpatialAnchorExtensions_GetPlatformPointer_m89717271FB4D05DFF146A2213192F43FDFBF8608,
+	SpatialAnchorExtensions_GetPlatformKey_m390F10BE2ACA82837AD2E628D4F1061D03D90487,
+	SpatialAnchorExtensions_ApplyCloudAnchor_m63AD5DD51FBBDE499007E5B35775F335A631C279,
+	SpatialAnchorExtensions_CreateNativeAnchor_mF36E2CE8513F80C79BFAA3E69C4F2B83290D367F,
+	SpatialAnchorExtensions_DeleteNativeAnchor_mBD36C4B64AD2F5C9A5E004A19ACD902A1130C367,
+	SpatialAnchorExtensions_FindNativeAnchor_m094978C875DAC4A8628AFF1934F0C556E73977F9,
+	SpatialAnchorExtensions_FindOrCreateNativeAnchor_m7FB7D784FAB72EB0AA30C2B37D0A8DDEABD04176,
+	SpatialAnchorExtensions_GetPointer_m8E38607AEB8E855040CDDD33DD6528E6051F3197,
+	SpatialAnchorExtensions_GetPose_m590C314B282947CB2332A7E070D72C6A3F638889,
+	SpatialAnchorExtensions_SetPose_m46415698AA046E7F3CE75BA7CBCA0A46FD051AC4,
+	SpatialAnchorExtensions_SetPose_m87A8936F4DF42F4ADFF593CDF513954B102D9F8C,
+	SpatialAnchorExtensions_ToCloud_mC0032F5BFBA0BC2164EFE8AD041AB944D14386CD,
+	SpatialAnchorManager_EnsureSessionStarted_m9236D97D628200816C9C2D4576B78801C53079AA,
+	SpatialAnchorManager_ProcessLatestFrame_m8F21EB4210B68D8E3C22586F0B2BCCE9E1104F5C,
+	SpatialAnchorManager_ReferencePointFromPointer_m88567FABE21E86C74CF2E22BC1B4F3A530E3F85E,
+	SpatialAnchorManager_AnchorFromPointer_mC8BD2CBA3D48B7B1DF2F71221D499B5BE7FE7E42,
+	SpatialAnchorManager_ProcessPendingEventArgs_m9F12D44CD5DBB2DA6709F84E53160FD68818301C,
+	SpatialAnchorManager_EnsureValidConfiguration_mF435591F62E2F19A62A5FC48FE2E34B3995AC3AB,
+	SpatialAnchorManager_GetAADTokenAsync_m56CD13BAF221966F3E199879C27FE8A564AE4C6E,
+	SpatialAnchorManager_LoadConfiguration_mFFDB9CE80CF23E5E42913E13BC5CBA1004E5E7B4,
+	SpatialAnchorManager_IsValidateConfiguration_m629505532ED1B02E9B7C5180ECFDECD52F3B98A3,
+	SpatialAnchorManager_OnAnchorLocated_m096073B5E87FF3D569BF78AA0CBB6390DF8BAD19,
+	SpatialAnchorManager_OnError_m0ADBCBAE2868516F64C264211F6C32A98471D233,
+	SpatialAnchorManager_OnLocateAnchorsCompleted_m8A2B20DAAA07F8958577273E9326BE7AFD43F53D,
+	SpatialAnchorManager_OnLogDebug_m28C1D4F3839F119A4851E4187911D04F8FD70C91,
+	SpatialAnchorManager_OnSessionChanged_mF38004FEEE9930A2DFBE9CABADE8CB071DD6B73D,
+	SpatialAnchorManager_OnSessionCreated_m1C5EC82F4E318C35C11D792EC2B89E94789262AE,
+	SpatialAnchorManager_OnSessionDestroyed_m012B8B16FE5ACF7B4E15B8CE43176BDA3691934B,
+	SpatialAnchorManager_OnSessionStarted_m4E5E9A4FFB995C81C766E1588E6EF5CBAF7ADE05,
+	SpatialAnchorManager_OnSessionStopped_m884C94413856C0086FC6FEB6B506B267170738DF,
+	SpatialAnchorManager_OnSessionUpdated_m48B975A363B11E755044F16487D337B9E0B67411,
+	SpatialAnchorManager_Session_TokenRequired_mF6105D3F0F44889F715F492A00307353244CE440,
+	SpatialAnchorManager_ARSession_stateChanged_m5EF53348D393B6D2225E9FC5110A4861C117182C,
+	SpatialAnchorManager_ARAnchorManager_anchorsChanged_m3F950E2252B1BD33F63AE16D5B8BAD9F8D091A84,
+	SpatialAnchorManager_ArCameraManager_frameReceived_mFA9B68ABC36F2E7A3187476BD651366F6622E8E0,
+	SpatialAnchorManager_Awake_m55F81FC763246AF7F1834568EAB699D7249E427A,
+	SpatialAnchorManager_OnDestroy_mE59312795A7B2BA58812CFAD223B1037E5C28E17,
+	SpatialAnchorManager_Start_m86CBD09DAF69B880F8ED131901E357D535C4AFF8,
+	SpatialAnchorManager_Update_m44F2ED5C63DF5A48D1B839019E2C2E3978EC5578,
+	SpatialAnchorManager_CreateSessionAsync_m597F6E8D5DBAAFF0F9A153CC00C34085285CE32E,
+	SpatialAnchorManager_CompleteARFoundationInitialization_mF2CE317CC1F8FCAA4BE72C982FF27BC3A8C85DA5,
+	SpatialAnchorManager_DestroySession_m36C923FA2891398CE67B1F780A530ECCF266A36B,
+	SpatialAnchorManager_ResetSessionAsync_m6BE54BACF97B096F068929998A2AB8E11F21A13A,
+	SpatialAnchorManager_CreateAnchorAsync_m1B4F0053BF84210F83E5A9921D6769BF6FCF2223,
+	SpatialAnchorManager_CreateAnchorAsync_mF110FFC31DCF9D52E3BE50F3D345D6E17B7F2762,
+	SpatialAnchorManager_DeleteAnchorAsync_m30A2C5A9EEDDC880836D55634433660903BB2A1B,
+	SpatialAnchorManager_StartSessionAsync_mBBAD105627E5B6EBE362ABB352F6EA577D4666EC,
+	SpatialAnchorManager_StopSession_m10FA31695ADB40999D606A6EDD73A972D69B0C30,
+	SpatialAnchorManager_get_AuthenticationMode_m834B7FE263CF2A4AC65FB5589AC98D9FDFC0782C,
+	SpatialAnchorManager_set_AuthenticationMode_m84C7477E6A7B0D0A33A33BD98721E3138052FF45,
+	SpatialAnchorManager_get_ClientId_m4E66F17965471FFB6753BE6B31CD1D97C09E0937,
+	SpatialAnchorManager_set_ClientId_m72CC030D50B54B299109D8234A2F1B3066FD590F,
+	SpatialAnchorManager_get_IsLocating_mD0BC6A4CA8AC36288395DA9A0F89CE609EA656A0,
+	SpatialAnchorManager_get_IsReadyForCreate_m0793BCB29353804507FBFD88258D2476D2BBCE3B,
+	SpatialAnchorManager_get_IsSessionStarted_m833ECF98558B48251D2B6496FC7297B882CC89C2,
+	SpatialAnchorManager_get_LogLevel_mBE427EB23A55154F0F8E44493B7BFA6CE10770E7,
+	SpatialAnchorManager_set_LogLevel_m845B3513501EF84C23E1598733DE4377F7A989CC,
+	SpatialAnchorManager_get_Session_mA3F132069477BEE30F739B60CBECB4CAEC99EE0B,
+	SpatialAnchorManager_set_Session_m1233F37B53C76AE1EA0BF30B8587709FE47854CB,
+	SpatialAnchorManager_get_SessionStatus_m23419950ED8E0976F7409C8CC0E19D0F60C47F53,
+	SpatialAnchorManager_get_SpatialAnchorsAccountId_m5E8EE853103BD07A23A32B255C010B66A0BFDA73,
+	SpatialAnchorManager_set_SpatialAnchorsAccountId_mC1F9DE6AC86E74ED4A8223E7A0CCA92189EBD4E6,
+	SpatialAnchorManager_get_SpatialAnchorsAccountKey_m72CFDEF99E267D452435C231BFB6892681D65EF2,
+	SpatialAnchorManager_set_SpatialAnchorsAccountKey_mD601ED5C4DA4D5F49A4838728AE9F6B58DDC65DE,
+	SpatialAnchorManager_get_SpatialAnchorsAccountDomain_mD4B0BF55007786BDB7BB24CB77DE3D20457E5E85,
+	SpatialAnchorManager_set_SpatialAnchorsAccountDomain_mC5C4279D69CA893D8448FE1CE9A207EA7692D49A,
+	SpatialAnchorManager_get_TenantId_mCC02F0098B3AE8179E45DE79F0A0C45CDDEE75A4,
+	SpatialAnchorManager_set_TenantId_m1FC62BA4C17E8B58DD6B67BA530D9BA50D94FF26,
+	SpatialAnchorManager_add_AnchorLocated_m21127D746CB51D76E931F83C1DE30096C0052713,
+	SpatialAnchorManager_remove_AnchorLocated_mEBBFC084770C4840FC1DE73A4E185525155D7F94,
+	SpatialAnchorManager_add_LocateAnchorsCompleted_m06BE304F58242D722A16BB98BBD97A19C3AB89D5,
+	SpatialAnchorManager_remove_LocateAnchorsCompleted_mC94B437C4220AF7A5F3B1330810BD8BA9E2CF86E,
+	SpatialAnchorManager_add_Error_m7DB2FB2DFA06DEB0B80730636FEF30B88A74984C,
+	SpatialAnchorManager_remove_Error_m3C6146E92113997056729ACCA89BC7291EADB24F,
+	SpatialAnchorManager_add_SessionChanged_mEDB98935ED0B64715CF5E3E49389D4181088D371,
+	SpatialAnchorManager_remove_SessionChanged_mAD64699ABA1B305ACE3A6AC508B010B932E445B7,
+	SpatialAnchorManager_add_SessionCreated_mEE221D8D72C2300A1C8AF2589B7EB6A1AA21255A,
+	SpatialAnchorManager_remove_SessionCreated_m8603C214B073D383462990C56AFF819CA981FD0D,
+	SpatialAnchorManager_add_SessionDestroyed_mF63BC77B9BB991A65D704490E8B505F8C998959D,
+	SpatialAnchorManager_remove_SessionDestroyed_m84F5F42EBC3760AB508FCF6FF3D579183BB8B216,
+	SpatialAnchorManager_add_SessionStarted_m282D04E8A7D43785717524412E49F01E010893F4,
+	SpatialAnchorManager_remove_SessionStarted_m58DD68C5D1F43E2793E4D4BF370BC594AAC01833,
+	SpatialAnchorManager_add_SessionStopped_m22B71DC2EAB3380AE0626770D5BC9B7A4FF1BB39,
+	SpatialAnchorManager_remove_SessionStopped_mB2AE16D6A79F1C6E839EF29A5C6FB0F4E1514E00,
+	SpatialAnchorManager_add_SessionUpdated_mA1D07B20891C96960F05326E0BB2D87255E767B5,
+	SpatialAnchorManager_remove_SessionUpdated_m8CECCF5F19183E21537D0F1559265BC35B1AB03F,
+	SpatialAnchorManager_add_LogDebug_mC1E9B393A2CBB96813F00AF922B33E43EFF0D367,
+	SpatialAnchorManager_remove_LogDebug_m0060FA7B16B5CAE4D898CDCAB9BD0E4DBEDDDAB5,
+	SpatialAnchorManager__ctor_m47049A05E0E6D101F249062252B5EE32C5429AE8,
+	SpatialAnchorManager__cctor_m5A42F22A28CC0FF4FF5EF64CF33A5609A57991AB,
+	SpatialAnchorManager_U3CResetSessionAsyncU3Eb__48_0_mC390E9B15F30122EDBDC475F10CD231CD72F085A,
+	UnityDispatcher_Initialize_mA42FFE257BA4445641146DD300C0A3A3898DE116,
+	UnityDispatcher_Update_m315C8CB863DC70C2C51E37970126102F7D558CE3,
+	UnityDispatcher_InvokeOnAppThread_m2A26A2FAC2F774E50755E5CFC703848887487E19,
+	UnityDispatcher__ctor_m1470452BBD5DE04FC342EB14A9AC07F091BBC57D,
+	UnityDispatcher__cctor_m28C78DF87229ACFAD3B740C3F8BD72D1F3C0A88A,
+	AnchorHelpers_CreateWorldAnchor_m17E2ED7EE948E4F50AA2925A1F8C3C5FBA3017F6,
+	AnchorHelpers_CreateAnchor_mADD92F99CF6205E97D591579BF5A39834BB73A17,
+	AnchorHelpers_GetPose_mCA9C32024A205609EACDC90B4E12165853F5D6AD,
+	AnchorHelpers_GetPose_m28B5223D494FE6C11759229AF1A04E64DC291143,
+	AnchorHelpers_GetPose_m309AE80B28347615929F170C08BD732523CE06D8,
+	UnityARFoundationAnchorComponent_get_WorldAnchor_mC638F9C9C27DDF076E92EB582A094E18F8AD602C,
+	UnityARFoundationAnchorComponent_set_WorldAnchor_m88C99A821B3169CAED109C12F370E1AD2FA002A6,
+	UnityARFoundationAnchorComponent_get_WorldAnchorHandle_m8EE8CEB36935F59E8EC3B2A9E1281FED57A56275,
+	UnityARFoundationAnchorComponent_get_WorldAnchorIdentifier_m1DD9D1E1DD91D3D90D409962D1B06D601394F264,
+	UnityARFoundationAnchorComponent_Awake_m35F4A63113505BE9E8ADD5C13B000FC300CA331C,
+	UnityARFoundationAnchorComponent_OnDestroy_m188858786BB38CA694336312A0CB936D3D464B70,
+	UnityARFoundationAnchorComponent__ctor_mF1D8C836972E9E49A5788A7B8C39EFBF60500301,
+	U3CEnsureValidConfigurationU3Ed__23_MoveNext_mED2DA032DB17FED6005530114D830D8EA560E309_AdjustorThunk,
+	U3CEnsureValidConfigurationU3Ed__23_SetStateMachine_mA409F5240671A931DAE09DF1CE2EBB47D7173CE3_AdjustorThunk,
+	U3CGetAADTokenAsyncU3Ed__24_MoveNext_mB4E1366A0F8DC6FCE1C3575E862A9A86E353884E_AdjustorThunk,
+	U3CGetAADTokenAsyncU3Ed__24_SetStateMachine_m3FA0B17A3BECAEEA9200CEB25AE76D56BE3C374A_AdjustorThunk,
+	U3CIsValidateConfigurationU3Ed__26_MoveNext_m5912469082B9B009A672E9D14E73F2621BBA4B7C_AdjustorThunk,
+	U3CIsValidateConfigurationU3Ed__26_SetStateMachine_mA5ECDF054C2F8997AC693398D1C8876DBFC35044_AdjustorThunk,
+	U3CSession_TokenRequiredU3Ed__37_MoveNext_m8D480343234877800193035A866B654347C45F1C_AdjustorThunk,
+	U3CSession_TokenRequiredU3Ed__37_SetStateMachine_mD0122715862B0A8E993180A85C990FF66966DE7D_AdjustorThunk,
+	U3CStartU3Ed__43_MoveNext_m2E2DD1B63FEB879CBB05F14B402689DFC682A667_AdjustorThunk,
+	U3CStartU3Ed__43_SetStateMachine_m6DCE420723BC40C321D5620989222D1D6995B3CB_AdjustorThunk,
+	U3CCreateSessionAsyncU3Ed__45_MoveNext_m6A10AC90277D391961825CB4FE41AD9FECB55F93_AdjustorThunk,
+	U3CCreateSessionAsyncU3Ed__45_SetStateMachine_m147345D9824E929FC44375B2C3F3AE54A67F10C3_AdjustorThunk,
+	U3CResetSessionAsyncU3Ed__48_MoveNext_mED96F0AC3150DF98596299F091979C0E60C2CB89_AdjustorThunk,
+	U3CResetSessionAsyncU3Ed__48_SetStateMachine_m2E0565B80FBCE44C6B67AA6A9AD360B9412C109A_AdjustorThunk,
+	U3CCreateAnchorAsyncU3Ed__49_MoveNext_mDA21DBB41876299D9A40C843D535EC00A527F586_AdjustorThunk,
+	U3CCreateAnchorAsyncU3Ed__49_SetStateMachine_mC890C4CD60DF752A3C743D448A7CEA610458CCED_AdjustorThunk,
+	U3CDeleteAnchorAsyncU3Ed__51_MoveNext_m1519F4D1303BA19D7F26CDE33BF172A41434D447_AdjustorThunk,
+	U3CDeleteAnchorAsyncU3Ed__51_SetStateMachine_m7C853B3FFBF682464F3476E4C3242A49AD913F06_AdjustorThunk,
+	U3CStartSessionAsyncU3Ed__52_MoveNext_mAABB5058B06039146AA624567E7F450EAE992CCF_AdjustorThunk,
+	U3CStartSessionAsyncU3Ed__52_SetStateMachine_m0ACF92BA0C7FFE62741210FDA89D2D84D2923A16_AdjustorThunk,
+	U3CU3CResetSessionAsyncU3Eb__48_0U3Ed_MoveNext_m04382226C3D2205B93A3C8BF2DAF8FD37A3762DA_AdjustorThunk,
+	U3CU3CResetSessionAsyncU3Eb__48_0U3Ed_SetStateMachine_m3167E4667377C4A1FD3BA75EAA4E7C71AB5A6C31_AdjustorThunk,
+};
+static const int32_t s_InvokerIndices[146] = 
+{
+	23,
+	26,
+	31,
+	23,
+	1421,
+	1621,
+	14,
+	14,
+	23,
+	10,
+	14,
+	14,
+	14,
+	14,
+	14,
+	23,
+	872,
+	18,
+	1,
+	0,
+	154,
+	0,
+	0,
+	24,
+	1865,
+	1866,
+	1867,
+	0,
+	23,
+	23,
+	18,
+	18,
+	23,
+	350,
+	14,
+	23,
+	14,
+	27,
+	27,
+	27,
+	27,
+	23,
+	23,
+	23,
+	23,
+	23,
+	27,
+	27,
+	1750,
+	1868,
+	1732,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	14,
+	1241,
+	28,
+	28,
+	14,
+	23,
+	10,
+	32,
+	14,
+	26,
+	89,
+	89,
+	89,
+	10,
+	32,
+	14,
+	26,
+	14,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	23,
+	3,
+	14,
+	3,
+	23,
+	154,
+	23,
+	3,
+	0,
+	1869,
+	1865,
+	1865,
+	1870,
+	14,
+	26,
+	15,
+	14,
+	23,
+	23,
+	23,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+};
+extern const Il2CppCodeGenModule g_AzureSpatialAnchors_SDK_Core_RuntimeCodeGenModule;
+const Il2CppCodeGenModule g_AzureSpatialAnchors_SDK_Core_RuntimeCodeGenModule = 
+{
+	"AzureSpatialAnchors.SDK.Core.Runtime.dll",
+	146,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
